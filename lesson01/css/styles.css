@@ -7,7 +7,7 @@ body {
 
 /*Change default font size of introduction paragraph */
 .intro {
-   font-size: 20px; 
+   font-size: 16px; 
 }
 
 /*Media query for columns */
