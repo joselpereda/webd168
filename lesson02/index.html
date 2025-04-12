@@ -7,15 +7,85 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Varela+Round"
     />
+    <style>
+      body {
+        background-color:rgb(50,122,167);
+        padding: 0 20px 20px; /*p0-0-20-20 */
+        margin: 0; /* m0 */
+      }
+      p {
+        color:rgba(255,255,255,.6);
+        font-size: 1em; /* fz1em */
+        font-family: "Varela Round", Ariel, Helvetica, sans-serif; 
+      }
+      h1, h2, h3 {
+        color: rgb(255,255,255);
+        font-family: Arial, "Palatino Linotype", Times, serif;
+        border-block-start: 2px solid rgb(87,185,178);
+        padding-top: 10px;
+        padding-bottom: 5px;
+      }
+      h1 {
+        font-size: 2em;
+      }
+      #logo {
+        font-family: Baskerville, Palatino, sans-serif;
+        font-size: 2em; /* fz2em */
+        color: rgba(255,255,255, .8);
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 30px;
+        background-color: rgb(191,91,116);
+        border-radius: 0 0 10px 10px; /* bdrs0-0-10-10 */
+        padding: 10px;
+      }
+      .note {
+        color: #000;
+        border: 2px solid #fff;
+        background-color: rgb(69,189,102);
+        margin-top: 25px;
+        margin-bottom: 35px;
+        padding: 20px;
+      }
+      .note strong {
+        color: #fc6512;
+      }
+      article {
+        max-width: 760px; /* maw760 */
+        margin: 0 auto;
+      }
+      h1+p {
+        color: rgb(255,255,255);
+        font-size: 1.2em;
+        line-height: 140%;
+      }
+
+      /* Use the HTML title attribute to change the font color of the CSS hyperlink in the first paragraph to green. */
+      a[title]{
+        color: green;
+        background-color: white;
+      }
+
+      /* In the "Child Type Selectors" section, apply an italic font style to the "Me Neither!" <h3> element. */
+      article > h3:last-of-type {
+        font-style: italic;
+        color: #fc6512;
+      }
+      
+      /* Assign a class to the <h3> element and apply custom styles to the "Not Me!" heading */
+      .not_me {
+        color: blueviolet;
+      }
+    </style>
   </head>
   <body>
-    <header>CSS: The Missing Manual</header>
+    <header><div id="logo">CSS: The Missing Manual</div></header>
 
     <article>
       <!-- The article element is intended to present an independent entry that could stand on its own. -->
       <h1>The Amazing World of CSS</h1>
       <p>
-        <strong><a href="/en-US/docs/Glossary/CSS">CSS</a></strong> (Cascading
+        <strong><a href="/en-US/docs/Glossary/CSS" title="CSS">CSS</a></strong> (Cascading
         Style Sheets) allows you to create great-looking web pages. Cascading
         Style Sheets (CSS) is a style sheet language used for describing the
         presentation of a document written in a markup language such as HTML.
@@ -37,7 +107,7 @@
         quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
         voluptas nulla pariatur?
       </p>
-      <p>
+      <p class="note">
         <strong>NOTE:</strong> Ut enim ad minima veniam, quis nostrum
         exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
         commodi consequatur?
@@ -52,27 +122,16 @@
         rules for alternate formatting if the content is accessed on a mobile
         device.
       </p>
-      <p>
+      <p class="note">
         <strong>NOTE:</strong> Ut enim ad minima veniam, quis nostrum
         exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
         commodi consequatur?
       </p>
 
-      <h3>Not Me!</h3>
+      <h3 class="not_me">Not Me!</h3>
+      <!-- Replace the content of the "Not Me!" paragraph with at least 50 words. Share your comfort level with using CSS for styling webpages and any insights gained from reading Chapter 3 of CSS: The Missing Manual -->
       <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-        voluptas nulla pariatur?
+        There is a variety of ways of by to select tags. A good portion of this document explains child selectors. What stood out is that in addition to being able to select tags via parent-child relationships, it is also possible to make a selection based on a tag's surrounding siblings. Using an adjacent sibling selector one can, for example, give the first paragraph of each heading different formatting from the paragraphs that follow. Yes, it's that simple! 
       </p>
 
       <h3>Me Neither!</h3>
