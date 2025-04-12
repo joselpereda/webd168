@@ -9,7 +9,7 @@ body {
 }
 .column {
     flex: 1;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
 .column:nth-child(odd) {
