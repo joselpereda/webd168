@@ -7,7 +7,7 @@ body {
 
 /*Change font size of introduction paragraph */
 h1 p {
-   font-size: 3em; 
+   font-size: 4em; 
 }
 
 /*Media query for columns */
