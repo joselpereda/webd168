@@ -5,9 +5,9 @@ body {
     padding: 0 20px;
 }
 
-/*Change font size of introduction paragraph */
+/*Change default font size of introduction paragraph */
 .intro {
-   font-size: 5em; 
+   font-size: 24px; 
 }
 
 /*Media query for columns */
