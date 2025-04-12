@@ -6,7 +6,7 @@ body {
 }
 
 /*Change font size of introduction paragraph */
-h1 p {
+.intro {
    font-size: 5em; 
 }
 
