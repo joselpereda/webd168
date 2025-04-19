@@ -66,6 +66,6 @@ body {
     font-size: 18px;
 }
 
-.card hover a:hover {
+.card a:hover {
     opacity: 0.9;
 }
