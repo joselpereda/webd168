@@ -37,21 +37,21 @@ body {
 }
 
 .card:first-of-type {
-    background: #fff url(../img/pose1.png) no-repeat center right/150px;
+    background: #fff url(/lesson03/img/pose3.png) no-repeat center right/150px;
 }
 
 .card:first-of-type a {
     background-color: #e04555;
 }
 .card:last-of-type {
-    background: #fff url(../img/pose3.png) no-repeat center right/150px;
+    background: #fff url(/lesson03/img/pose3.png) no-repeat center right/150px;
 }
 
 .card:last-of-type a {
     background-color: #537a4f;
 }
 .card:nth-of-type(2) {
-    background: #fff url(../img/pose2.png) no-repeat center right/150px;
+    background: #fff url(/lesson03/img/pose2.png) no-repeat center right/150px;
 }
 
 .card:nth-of-type(2) a {
