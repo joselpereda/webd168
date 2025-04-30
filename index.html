@@ -1,68 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Link To Google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
-	<title>Flexible Media</title>
-	<link rel="stylesheet" href="lesson05/styles.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Goose Bistro Summer Menu</title>
+  <link rel="stylesheet" href="lesson06/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Marko+One" rel="stylesheet" type="text/css" />
+ 
 </head>
 
 <body>
-<section>
-<article>
-  <!-- Main Heading (h1) -->
-  <h1>Whale Shark</h1>
-  <!-- Image of the Whale Shark -->
-  <img src="lesson05/images/whaleSharkArt.jpg" alt="Whale Shark">
-  <p>The whale shark (Rhincodon typus) is a slow-moving filter feeding shark and the largest known extant fish species. The largest confirmed individual had a length of 12.65 m (41.50 ft) and a weight of more than 21.5 metric tons (47,000 lb), and unconfirmed reports of considerably larger whale sharks exist. Claims of individuals over 14 m (46 ft) long and weighing at least 30 mt (66,000 lb) are not uncommon. The whale shark holds many records for sheer size in the animal kingdom, most notably being by far the largest living nonmammalian vertebrate, rivalling many of the largest dinosaurs in weight. It is the sole member of the genus Rhincodon and the family, Rhincodontidae (called Rhiniodon and Rhinodontidae before 1984), which belongs to the subclass Elasmobranchii in the class Chondrichthyes. The species originated about 60 million years ago.</p>
-  <h2>Diet</h2>
-  <p>As the largest fish in the sea, reaching lengths of 40 feet (12 meters) or more, whale sharks have an enormous menu from which to choose. Fortunately for most sea-dwellers—and us!—their favorite meal is plankton. They scoop these tiny plants and animals up, along with any small fish that happen to be around, with their colossal gaping mouths while swimming close to the water's surface.</p>
-  <p>The whale shark, like the world's second largest fish, the basking shark, is a filter feeder. In order to eat, the beast juts out its formidably sized jaws and passively filters everything in its path.  The mechanism is theorized to be a technique called “cross-flow filtration,” similar to some bony fish and baleen whales.</p>
-  <h2>Physical Characteristics</h2>
-  <p>The whale shark's flattened head sports a blunt snout above its mouth with short barbels protruding from its nostrils. Its back and sides are gray to brown with white spots among pale vertical and horizontal stripes, and its belly is white. Its two dorsal fins are set rearward on its body, which ends in a large dual-lobbed caudal fin (or tail).</p>
-  <h2>Habitats</h2>
-<p>Preferring warm waters, whale sharks
-	populate all tropical seas. They are
-	known to migrate every spring to the
-	continental shelf of the central west
-	coast of Australia. The coral spawning
-	of the area's Ningaloo Reef provides the
-	whale shark with an abundant supply of
-	plankton.</p>
-  <p>Although massive, whale sharks are docile fish and sometimes allow swimmers to hitch a ride. They are currently listed as a vulnerable species; however, they continue to be hunted in parts of Asia, such as the Philippines.</p>
-</article>
+  <header>
+    <h1>Black Goose Bistro &bull; Summer Menu</h1>
 
-<aside>
-	<p>Of all the fish<br>
-	  We are biggest<br>
-	  Longer than a school bus!<br>
-	  And like Great Whites<br>
-	  We’re sharks, all right<br>
-	  Except not dangerous!</p>
-	<p>No need to hide<br>
-	  Swim by my side<br>
-	  You’re way too big to eat!<br>
-	  I do not bite<br>
-	  To be forthright<br>
-	  I never use my teeth!</p>
-	<p>For what I eat<br>
-	  I so petite<br>
-	  They’re very hard to see!<br>
-	  I open wide<br>
-	  And let them slide<br>
-	  Into my huge belly!</p>
-	<p>I’m twenty tons<br>
-	  But eat plankton<br>
-	  A great big oddity!<br>
-	  Sharks terrorize<br>
-	  But not this guy!<br>
-	  Whale sharks are large and friendly!</p>
-  </aside>
+    <div id="info">
+      <p>
+        Baker's Corner, Seekonk, Massachusetts<br />
+        <span class="label">Hours: Monday through Thursday:</span> 11 AM to 9 PM,
+        <span class="label">Friday and Saturday:</span> 11 AM to midnight
+      </p>
+      <ul>
+        <li><a href="#appetizers">Appetizers</a></li>
+        <li><a href="#entrees">Main Courses</a></li>
+        <li><a href="#toast">Traditional Toasts</a></li>
+        <li><a href="#dessert">Dessert Selection</a></li>
+      </ul>
+    </div>
+  </header>
 
-</section>
+  <section id="appetizers">
+    <h2>Appetizers</h2>
+    <p>
+      This season, we explore the spicy flavors of the southwest in our appetizer collection.
+    </p>
+
+    <dl>
+      <dt>Black Bean Purses</dt>
+      <dd>
+        Spicy black beans and a blend of Mexican cheeses wrapped in sheets of phyllo and baked until golden.
+        <span class="price">$3.95</span>
+      </dd>
+
+      <dt class="newitem">Southwestern Napoleons with Lump Crab &mdash; <strong>New Item!</strong></dt>
+      <dd>
+        Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas.
+        <span class="price">$7.95</span>
+      </dd>
+    </dl>
+  </section>
+
+  <section id="entrees">
+    <h2>Main Courses</h2>
+    <p>
+      Big, bold flavors are the name of the game this summer. Allow us to assist you with finding the perfect wine.
+    </p>
+
+    <dl>
+      <dt class="newitem">Jerk Rotisserie Chicken with Fried Plantains &mdash; <strong>New Item!</strong></dt>
+      <dd>
+        Tender chicken slow-roasted on the rotisserie, flavored with spicy and fragrant jerk sauce and served with fried plantains and fresh mango.
+        <strong>Very spicy.</strong>
+        <span class="price">$12.95</span>
+      </dd>
+
+      <dt>Shrimp Sate Kebabs with Peanut Sauce</dt>
+      <dd>
+        Skewers of shrimp marinated in lemongrass, garlic, and fish sauce, grilled to perfection. Served with spicy peanut sauce and jasmine rice.
+        <span class="price">$12.95</span>
+      </dd>
+
+      <dt>Grilled Skirt Steak with Mushroom Fricassée</dt>
+      <dd>
+        Flavorful skirt steak marinated in Asian flavors, grilled as you like it<sup>*</sup>. Served over a blend of sautéed wild mushrooms with a side of blue cheese mashed potatoes.
+        <span class="price">$16.95</span>
+      </dd>
+    </dl>
+  </section>
+
+  <section id="toast">
+    <h2>Traditional Toasts</h2>
+    <p>
+      The ultimate comfort food, our traditional toast recipes are adapted from
+      <a href="http://www.gutenberg.org/files/13923/13923-h/13923-h.htm"><cite>The Whitehouse Cookbook</cite></a>
+      published in 1887.
+    </p>
+
+    <dl>
+      <dt>Cream Toast</dt>
+      <dd>
+        Simple cream sauce over the highest quality toasted bread, baked daily.
+        <span class="price">$3.95</span>
+      </dd>
+
+      <dt>Mushroom Toast</dt>
+      <dd>
+        Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas.
+        <span class="price">$6.95</span>
+      </dd>
+
+      <dt>Nun's Toast</dt>
+      <dd>
+        Onions and hard-boiled eggs in a cream sauce over buttered hot toast.
+        <span class="price">$6.95</span>
+      </dd>
+
+      <dt>Apple Toast</dt>
+      <dd>
+        Sweet, cinnamon stewed apples over delicious buttery grilled bread.
+        <span class="price">$6.95</span>
+      </dd>
+    </dl>
+  </section>
+
+  <section id="dessert">
+    <h2>Dessert Selection</h2>
+    <p>
+      Be sure to save room for our desserts, made daily by our own
+      <a href="http://www.jwu.edu/college.aspx?id=19510">Johnson & Wales</a>
+      trained pastry chef.
+    </p>
+
+    <dl>
+      <dt class="newitem">Lemon Chiffon Cake &mdash; <strong>New Item!</strong></dt>
+      <dd>
+        Light and citrus-flavored sponge cake with buttercream frosting as light as a cloud.
+        <span class="price">$2.95</span>
+      </dd>
+
+      <dt class="newitem">Molten Chocolate Cake</dt>
+      <dd>
+        Bubba's special dark chocolate cake with a warm, molten center. Served with or without a splash of almond liqueur.
+        <span class="price">$3.95</span>
+      </dd>
+    </dl>
+  </section>
+
+  <footer>
+    <p class="warning">
+      <sup>*</sup> We are required to warn you that undercooked food is a health risk.
+    </p>
+  </footer>
 </body>
+
 </html>
