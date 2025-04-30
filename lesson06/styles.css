@@ -8,7 +8,8 @@ body {
   font-size: 1rem; /* 16px, base font size */
   line-height: 1.75rem; /* 28px, sets the line height to 1.75 times the font size */
   margin: 0 15% 0; /* 0px top and bottom margin, 15% margin on left and right */
-  color: #d2dc9d;
+  color: green;
+  
 }
 
 header {
