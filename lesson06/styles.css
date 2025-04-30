@@ -8,6 +8,7 @@ body {
   font-size: 1rem; /* 16px, base font size */
   line-height: 1.75rem; /* 28px, sets the line height to 1.75 times the font size */
   margin: 0 15% 0; /* 0px top and bottom margin, 15% margin on left and right */
+  color: #d2dc9d;
 }
 
 header {
@@ -23,6 +24,7 @@ a {
 h1 {
   font: bold 1.5rem Georgia, serif; /* 1.5rem (24px) font size, bold, using Georgia font */
   text-shadow: 0.1rem 0.1rem 0.2rem gray; /* Light shadow effect for the text */
+  color: #939;
 }
 
 h2 {
@@ -30,6 +32,7 @@ h2 {
   text-transform: uppercase; /* Transforms text to uppercase */
   letter-spacing: 0.5rem; /* 8px letter spacing */
   text-align: center; /* Centers the text */
+  color: #d2dc9d;
 }
 
 dt {
