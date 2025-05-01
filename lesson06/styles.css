@@ -8,6 +8,7 @@ body {
   font-size: 1rem; /* 16px, base font size */
   line-height: 1.75rem; /* 28px, sets the line height to 1.75 times the font size */
   margin: 0 15% 0; /* 0px top and bottom margin, 15% margin on left and right */
+  /* Per Prof's recommendation: best to comment out styles during design process. Easier to re-add if they are already on the style sheet. However, remember to remove them on production work */ 
   /*background-image: url(images/bullseye.png);
   background-position: center 200px; */
 
@@ -24,6 +25,7 @@ header {
   background-position: center top;
   background-attachment: fixed; */
 
+  /* condensed version of the above styles */
   background: rgb(255, 255, 255, 0.5) url(images/purpledot.png) repeat-x center top fixed;
 }
 
