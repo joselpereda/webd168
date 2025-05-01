@@ -9,6 +9,7 @@ body {
   line-height: 1.75rem; /* 28px, sets the line height to 1.75 times the font size */
   margin: 0 15% 0; /* 0px top and bottom margin, 15% margin on left and right */
   background-color: #d2dc9d;
+  background-image: url(images/bullseye.png);
   
 }
 
@@ -16,10 +17,27 @@ header {
   margin-top: 0; /* No margin at the top of the header */
   padding: 3rem 1rem 2rem 1rem; /* 3rem padding on top, 1rem on left and right, 2rem on bottom */
   text-align: center; /* Centers the text inside the header */
+  background-color: rgb(255, 255, 255, 0.5);
 }
 
 a {
   text-decoration: none; /* Removes underline from all links */
+  color: #939;
+}
+
+a :visited {
+  color: #937393;
+}
+
+a:hover,
+a:focus {
+  color: #c700f2;        /* Bright purple text */
+  background-color: #fff; /* White background */
+}
+
+a:active {
+  color: #ff00ff;        /* Vibrant purple */
+  background-color: #fff; /* White background */
 }
 
 h1 {
@@ -33,7 +51,7 @@ h2 {
   text-transform: uppercase; /* Transforms text to uppercase */
   letter-spacing: 0.5rem; /* 8px letter spacing */
   text-align: center; /* Centers the text */
-  color: #d2dc9d;
+  color: #c60;
 }
 
 dt {
