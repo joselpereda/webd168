@@ -165,14 +165,36 @@ header h1 {
 ======================= */
 
 /* Hamburger icon (hidden by default) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background:none;
+  border: none;
+  cursor:pointer;
+}
 
 /* Hamburger bars */
+.bar {
+  width: 25px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+}
 
 /* =======================
    Main Content
 ======================= */
 
 /* Main layout container */
+main {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 
 /* =======================
@@ -180,16 +202,56 @@ header h1 {
 ======================= */
 
 /* Container for cards */
-
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fil, minmax(15rem, 1fr));
+  grid-gap: 1.25rem;
+}
 
 /* Individual card */
-
+.card {
+  margin-bottom: 2rem;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.5)
+}
 
 /* Card link hover effect */
+.card:hoover {
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0,0,0,0.8);
+}
 
 
 /* Inner content padding */
+.card content {
+  padding: 1.4rem;
+}
 
+/* Style footer */
+footer {
+  display: flex;
+  color: #fff;
+  font-family: cursive;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.social-icons {
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00aced;
+}
 
 /* =======================
    Responsive Styles
@@ -198,29 +260,85 @@ header h1 {
 @media (max-width: 768px) {
 
   /* Adjust body for smaller screens */
-
+  body {
+    font-size: 0.9rem;
+    padding-top: 6rem;
+  }
 
 
   /* Responsive header */
+  header {
+    margin: 0;
+    margin-top: 5rem;
+    padding: 1.5rem;
+    width: 100%;
+    position: relative;
+    z-index: 500;
+  }
 
 
   /* Smaller header title */
+  header h1 {
+    font-size: 2rem;
+  }
 
 
   /* Smaller subheading */
+  h2 {
+    font-size: 1.25rem;
+  }
 
 
   /* Responsive navbar menu (hidden initially) */
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #aae1f9;
+    z-index: 999;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
 
   /* Show menu when active class is added */
+  .navbar ul.active {
+    display: flex;
+  }
 
 
   /* Show hamburger icon on small screens */
+  .hamburger {
+    display: flex;
+  }
 
 
   /* Single column card layout */
+  .cards {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
 
 
   /* Smaller card spacing */
+  .card {
+    margin-bottom: 1.5rem;
+  }
 
+  /* Smaller card content padding*/
+  .card-content {
+    padding: 1rem;
+  }
+  
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    text-align: left;
+  }
+
+  .social-icons {
+    margin-top: 0;
+  }
 }
