@@ -138,18 +138,27 @@ header h1 {
   position: static;
 }
 
-
 /* Individual navbar list items */
+.navbar li {
+  margin-right: 1rem;
+}
 
 
 /* Navbar link styles */
-
+.navbar a {
+  color: #fff;
+}
 
 /* Style links inside list items */
-
+.navbar li a {
+  display: block;
+  padding: 0.5rem rem;
+}
 
 /* Hover effect for navbar links */
-
+.navbar li a:hover {
+  background: #79a3e3;
+}
 
 /* =======================
    Hamburger Menu (Mobile)
@@ -213,3 +222,5 @@ header h1 {
 
 
   /* Smaller card spacing */
+
+}
